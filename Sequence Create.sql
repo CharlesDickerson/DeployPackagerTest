@@ -47,6 +47,7 @@ CREATE SEQUENCE [Sequence3]
     NO CYCLE   
     NO CACHE    
 
+
 	CREATE SEQUENCE [Sequence7]  
     AS int 
     START WITH 100 
@@ -56,4 +57,7 @@ CREATE SEQUENCE [Sequence3]
     CYCLE   
     CACHE 50
 
+	CREATE SEQUENCE [Sequence8] AS [smallint]
+
+	CREATE SEQUENCE [Sequence9] AS [tinyint]
 	
